@@ -1,7 +1,7 @@
 :root {
-    --gray: #DFDFDE;
-    --white: #F7F5F2;
-    --noideawhichcolor: #8D8DAA
+    --gray: #E1FFEE;
+    --white: #FFF8F3;
+    --noideawhichcolor: #1C6DD0;
 }
 
 * {
@@ -60,6 +60,8 @@ body {
     margin-top: 10px;
     border-radius: 3px;
     padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
     /* width: 100%; */
 }
 
@@ -86,6 +88,8 @@ body {
     margin-top: 10px;
     border-radius: 3px;
     padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /* About Me */
@@ -95,12 +99,22 @@ body {
     margin-top: 10px;
     border-radius: 3px;
     padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .aboutme__grid {
     display: flex;
     flex-flow: wrap;
+    justify-items: left
+}
 
+.aboutme__text {
+    width: auto;
+}
+
+.aboutme__images {
+    width: auto;
 }
 
 .item:hover {
@@ -115,6 +129,8 @@ body {
     margin-top: 10px;
     border-radius: 3px;
     padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 /* .socialcontacts_row {
