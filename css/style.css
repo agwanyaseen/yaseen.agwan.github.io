@@ -9,39 +9,10 @@
 }
 
 body {
-    background-color: #ffff;
-    font-family: 'Merriweather', serif;
+    background: linear-gradient(180deg, #e3e3e3 0%, #6b6b6b 100%);
+    font-family: 'Poppins', sans-serif;
     line-height: 2rem;
     height: 100%;
-}
-
-.intro {
-    /* display: flex;
-    flex-flow: wrap; */
-    /* background-color: #A5BECC;
-    color: #ffff; */
-    /* justify-content: space-evenly; */
-    margin: 10px;
-    margin-top: 15px;
-    border-radius: 3px;
-    height: 100%;
-    /* top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    position: relative; */
-}
-
-.intro__text {
-    text-align: center;
-    justify-content: center;
-    color: var(--noideawhichcolor);
-
-    vertical-align: middle;
-}
-
-.intro__text>p {
-    font-size: xx-large;
 }
 
 .intro__image {
@@ -52,71 +23,8 @@ body {
     /* opacity: 0.8; */
 }
 
-/* Techknologies Known */
-
-.tech {
-    background-color: var(--gray);
-    color: var(--noideawhichcolor);
-    margin-top: 10px;
-    border-radius: 3px;
-    padding: 10px;
-    /* width: 100%; */
-}
-
-.tech__grid {
+.vh-100 {
+    min-height: 100vh;
     display: flex;
-    flex-flow: wrap;
+    align-items: center;
 }
-
-.item {
-    background-color: var(--noideawhichcolor);
-    color: var(--white);
-    border: 1px solid;
-    padding: 10px;
-    border-radius: 3px;
-    transition: opacity 0.5s ease-in-out;
-    /* box-shadow: 5px 10px var(--white); */
-}
-
-/* Certifications */
-
-.certification {
-    background-color: var(--gray);
-    color: var(--noideawhichcolor);
-    margin-top: 10px;
-    border-radius: 3px;
-    padding: 10px;
-}
-
-/* About Me */
-.aboutme {
-    background-color: var(--gray);
-    color: var(--noideawhichcolor);
-    margin-top: 10px;
-    border-radius: 3px;
-    padding: 10px;
-}
-
-.aboutme__grid {
-    display: flex;
-    flex-flow: wrap;
-
-}
-
-.item:hover {
-    /* padding: 15px; */
-    opacity: 0.8;
-}
-
-/* Social Contacts */
-.socialcontacts {
-    background-color: var(--gray);
-    color: var(--noideawhichcolor);
-    margin-top: 10px;
-    border-radius: 3px;
-    padding: 10px;
-}
-
-/* .socialcontacts_row {
-    display: flex;
-} */
