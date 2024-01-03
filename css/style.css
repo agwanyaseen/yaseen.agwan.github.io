@@ -23,7 +23,7 @@ body {
     /* opacity: 0.8; */
 }
 
-.vh-100 {
+.viewheight-100 {
     min-height: 100vh;
     display: flex;
     align-items: center;
