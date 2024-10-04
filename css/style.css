@@ -9,11 +9,11 @@
 }
 
 body {
-    background: #D3C5E5;
+   background: #66A5AD;
     font-family: 'Poppins', sans-serif;
     line-height: 2rem;
     height: 100%;
-    color: #2F3C7E;
+    color: #C4DFE6;
 }
 .navigation {
     display: flex;
@@ -24,10 +24,10 @@ body {
     padding: 2rem;
 }
 .menu-button {    
-    padding: 6px 12px;   
+      padding: 6px 12px;
     border-radius: 30px !important;
-    background: #2F3C7E;
-    color: #FBEAEB;
+    background: #C4DFE6;
+    color: #66A5AD;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
     cursor: pointer;
@@ -40,15 +40,15 @@ body {
     border-radius: 4px;
 }
 .nav-link {   
-    line-height: 1.42857143;
+   line-height: 1.42857143;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
     -ms-touch-action: manipulation;
     touch-action: manipulation;
     cursor: pointer;
-    border: 1px solid transparent;    
-    color: #FBEAEB !important;
+    border: 1px solid transparent;
+    color: #66A5AD !important;
 }
 .viewheight-100 {
     min-height: 75vh;
@@ -67,10 +67,10 @@ body {
     margin-top: 0px !important;
 }
 .submit-button {   
-    padding: 10px 50px;
+     padding: 10px 50px;
     border-radius: 30px;
-    background: #2F3C7E;
-    color: #FBEAEB;
+    background: #C4DFE6;
+    color: #66A5AD;
     font-size: 18px;
     margin-top: 10px;
 }
